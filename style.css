@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 7px 10px;
+    color: black;
+    border: none;
+    font-weight: 600;
+    /* background-color: goldenrod; */
+}
+#coo{
+    width: 40%;
+}
+#van{
+    color: red;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#nav{
+    font-size: 20px;
+}
+
+@media(max-width:435px){
+    #row{
+        flex-wrap: nowrap;
+    }
+}
